@@ -1,0 +1,29 @@
+---
+framework: jest
+docker:
+  auth:
+    password: $DOCKERHUB_PASSWORD
+    username: mydockerhub-user
+  image: "lambdatest/<language>:<version TAG>"
+blacklist:
+  - "test/algorithms/geometric-test.js##new geometric algorithm##internal new geometric algorithm"
+modifiers:
+  - type: jest
+    cli: "--forbid-pending --no-bail"
+postmerge:
+  pattern:
+    - "test/algorithms/geometric-test.js"
+  strategy:
+    threshold: <5|100s|30m|6h>
+    type: <commit|time>
+premerge:
+  - "test/algorithms/geometric-test.js"
+stability:
+  consecutive_runs: 5
+prerun:
+  - npm i
+  - npm run react
+postrun:
+  - node --version
+  - echo finished
+version: 2.0
