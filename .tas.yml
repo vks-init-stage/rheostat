@@ -21,5 +21,4 @@ prerun:
 postrun:
   - node --version
   - echo finished
-  - echo finished
 version: 2.0
