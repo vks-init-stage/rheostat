@@ -11,7 +11,7 @@ postmerge:
   strategy:
     threshold: <5|100s|30m|6h>
     type: <commit|time>
-premerge:
+premerge:https://github.com/arjun-rathi/rheostat/blob/master/.tas.yml
   - "test/algorithms/geometric-test.js"
 stability:
   consecutive_runs: 5
@@ -20,5 +20,6 @@ prerun:
   - npm run react
 postrun:
   - node --version
+  - echo finished
   - echo finished
 version: 2.0
