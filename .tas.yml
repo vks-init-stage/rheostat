@@ -1,10 +1,5 @@
 ---
 framework: jest
-docker:
-  auth:
-    password: $DOCKERHUB_PASSWORD
-    username: mydockerhub-user
-  image: "lambdatest/<language>:<version TAG>"
 blacklist:
   - "test/algorithms/geometric-test.js##new geometric algorithm##internal new geometric algorithm"
 modifiers:
