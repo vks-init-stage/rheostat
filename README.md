@@ -1,6 +1,6 @@
 # Rheostat
 
-> A mobile, tablet, desktop, and accessible slider for the web.
+> A mobile, tablet, desktop, and accessible slider for the web. Anmol
 
 ![Rheostat demo](sample.gif)
 
