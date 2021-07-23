@@ -20,5 +20,4 @@ prerun:
   - npm run react
 postrun:
   - node --version
-  - echo finished
 version: 2.0
