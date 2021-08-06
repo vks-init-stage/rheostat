@@ -175,7 +175,7 @@ The default interface that `rheostat` ships with is the [CSS interface](https://
 ## Live Playground
 
 For more examples you can check out the storybook.
-
+Update
 * Clone this repo on your machine.
 * `npm install`
 * `npm run storybook`
