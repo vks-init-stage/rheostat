@@ -1,6 +1,6 @@
 # Rheostat
 
-> A mobile, tablet, desktop, and accessible slider for the web. Hello Manmeet
+> A mobile, tablet, desktop, and accessible slider for the web. Hello Manmeet. Anmol Testing 1
 
 ![Rheostat demo](sample.gif)
 
