@@ -5,19 +5,19 @@ blacklist:
 modifiers:
   - type: jest
     cli: "--forbid-pending --no-bail"
-postmerge:
+postMerge:
   pattern:
     - "test/algorithms/geometric-test.js"
   strategy:
     threshold: <5|100s|30m|6h>
     type: <commit|time>
-premerge:
+preMerge:
   - "test/algorithms/geometric-test.js"
 stability:
   consecutive_runs: 5
-prerun:
+preRun:
   - npm i
   - npm run react
-postrun:
+postRun:
   - node --version
 version: 2.0
