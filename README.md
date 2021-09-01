@@ -1,5 +1,5 @@
 # Rheostat
-jilo
+Testing with Sachin 2
 
 > A mobile, tablet, desktop, and accessible slider for the web. Testing with Sachin
 
