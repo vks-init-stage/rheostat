@@ -12,7 +12,8 @@ postMerge:
     threshold: <5|100s|30m|6h>
     type: <commit|time>
 preMerge:
-  - "test/algorithms/geometric-test.js"
+  pattern:
+    - "test/algorithms/geometric-test.js"
 stability:
   consecutive_runs: 5
 preRun:
