@@ -1,5 +1,4 @@
 # Rheostat
-Testing with Anmol 1
 
 > A mobile, tablet, desktop, and accessible slider for the web. Testing with CR.
 
