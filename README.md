@@ -1,6 +1,6 @@
 # Rheostat
 
-> A mobile, tablet, desktop, and accessible slider for the web. Testing with CR.
+> A mobile, tablet, desktop, and accessible slider for the web. Testing for Manmeet .
 
 ![Rheostat demo](sample.gif)
 
