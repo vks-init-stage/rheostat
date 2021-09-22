@@ -3,7 +3,8 @@
 ![Rheostat demo](sample.gif)
 
 ## Install
-Hello
+Hello 
+World
 
 ## Initialize
 
