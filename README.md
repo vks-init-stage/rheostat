@@ -1,7 +1,5 @@
 # Rheostat - Commit 2
-## Commit1
-
-> A mobile, tablet, desktop, and accessible slider for the web. Testing for Manmeet .
+## Commit1 
 
 ![Rheostat demo](sample.gif)
 
