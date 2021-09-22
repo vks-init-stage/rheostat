@@ -1,5 +1,4 @@
 # Rheostat - Commit 2
-## Commit1 
 
 ![Rheostat demo](sample.gif)
 
