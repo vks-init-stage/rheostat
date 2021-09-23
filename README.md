@@ -1,5 +1,5 @@
 # Rheostat - Commit 6.1
-1
+12
 ![Rheostat demo](sample.gif)
 
 ## Install
