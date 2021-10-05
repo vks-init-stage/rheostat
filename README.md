@@ -1,4 +1,4 @@
-# Rheostat - Commit 8.1
+# Rheostat 
 12
 ![Rheostat demo](sample.gif)
 
