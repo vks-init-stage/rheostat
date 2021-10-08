@@ -1,6 +1,6 @@
 # Rheostat 
 12
-![Rheostat demo](sample.gif)
+![Rheostat demo](sample.gif) Demo on call
 
 ## Initialize
 
