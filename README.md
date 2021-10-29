@@ -1,5 +1,5 @@
 # Rheostat
-
+Circle Ci
 > A mobile, tablet, desktop, and accessible slider for the web.
 
 ![Rheostat demo](sample.gif)
