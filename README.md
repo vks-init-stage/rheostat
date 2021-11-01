@@ -1,5 +1,4 @@
-# Rheostat 
-Update in Readme
+# Rheostat
 
 ## Initialize
 
