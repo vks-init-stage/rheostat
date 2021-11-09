@@ -11,8 +11,6 @@ postMerge:
 preMerge:
   pattern:
     - "test/algorithms/geometric-test.js"
-stability:
-  consecutive_runs: 5
 preRun:
   - npm i
   - npm run react
