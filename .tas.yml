@@ -2,9 +2,6 @@
 framework: jest
 blacklist:
   - "test/algorithms/geometric-test.js##new geometric algorithm##internal new geometric algorithm"
-modifiers:
-  - type: jest
-    cli: "--forbid-pending --no-bail"
 postMerge:
   pattern:
     - "test/algorithms/geometric-test.js"
