@@ -29,15 +29,6 @@ it('should handle the minimum end of the range correctly', () => {
   assert.equal(Math.round(positionFromValue), 0);
 });
 
-it('should handle the maximum end of the range correctly', () => {
-  const min = casual.integer(0, 899);
-  const max = casual.integer(900, 1000);
-  const value = geometric.getValue(100, min, max);
-  assert.equal(value, max);
-  const positionFromValue = geometric.getPosition(value, min, max);
-  assert.equal(Math.round(positionFromValue), 100);
-});
-
 //   it('should provide correct values for nice integers in the middle of a range', () => {
 //     const min = 0;
 //     const max = 1024;
@@ -68,5 +59,14 @@ describe('new test suite geometric algorithm', () => {
     const value = geometric.getValue(originalPosition, min, max);
     const positionFromValue = geometric.getPosition(value, min, max);
     assert.equal(Math.round(positionFromValue), originalPosition);
+  });
+
+  it('should handle the maximum end of the range correctly', () => {
+    const min = casual.integer(0, 899);
+    const max = casual.integer(900, 1000);
+    const value = geometric.getValue(100, min, max);
+    assert.equal(value, max);
+    const positionFromValue = geometric.getPosition(value, min, max);
+    assert.equal(Math.round(positionFromValue), 100);
   });
 });
