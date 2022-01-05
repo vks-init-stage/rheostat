@@ -1,6 +1,5 @@
 ---
 framework: jest
-tier: jjncnncn
 blocklist:
   - "test/algorithms/geometric-test.js##Parent suite##new test suite updated geometric algorithm"
   - "test/algorithms/geometric-test.js##Parent suite##geometric algorithm"
