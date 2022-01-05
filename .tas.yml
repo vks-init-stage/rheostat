@@ -2,7 +2,8 @@
 framework: jest
 tier: xlarge
 blocklist:
-  - "test/algorithms/geometric-test.js##Parent suite"
+  - "test/algorithms/geometric-test.js##Parent suite##new test suite updated geometric algorithm"
+  - "test/algorithms/geometric-test.js##Parent suite##geometric algorithm"
 postMerge: 
   pattern: 
     - "test/algorithms/geometric-test.js"
