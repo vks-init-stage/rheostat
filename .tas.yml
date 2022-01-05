@@ -1,8 +1,8 @@
 ---
 framework: jest
 tier: large
-# blocklist:
-#   - "test/algorithms/geometric-test.js##new geometric algorithm##internal new geometric algorithm"
+blocklist:
+  - "test/algorithms/geometric-test.js##new test suite updated geometric algorithm##should have inverse functions for getPosition and getValue"
 postMerge: 
   pattern: 
     - "test/algorithms/geometric-test.js"

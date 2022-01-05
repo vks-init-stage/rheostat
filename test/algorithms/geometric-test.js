@@ -50,22 +50,22 @@ describe('geometric algorithm', () => {
   });
 });
 
-// describe('new test suite updated geometric algorithm', () => {
-//   it('should have inverse functions for getPosition and getValue', () => {
-//     const min = casual.integer(0, 100);
-//     const max = casual.integer(900, 1000);
-//     const originalPosition = casual.integer(100, 900);
-//     const value = geometric.getValue(originalPosition, min, max);
-//     const positionFromValue = geometric.getPosition(value, min, max);
-//     assert.equal(Math.round(positionFromValue), originalPosition);
-//   });
+describe('new test suite updated geometric algorithm', () => {
+  it('should have inverse functions for getPosition and getValue', () => {
+    const min = casual.integer(0, 100);
+    const max = casual.integer(900, 1000);
+    const originalPosition = casual.integer(100, 900);
+    const value = geometric.getValue(originalPosition, min, max);
+    const positionFromValue = geometric.getPosition(value, min, max);
+    assert.equal(Math.round(positionFromValue), originalPosition);
+  });
 
-//   it('should handle the maximum end of the range correctly', () => {
-//     const min = casual.integer(0, 899);
-//     const max = casual.integer(900, 1000);
-//     const value = geometric.getValue(100, min, max);
-//     assert.equal(value, max);
-//     const positionFromValue = geometric.getPosition(value, min, max);
-//     assert.equal(Math.round(positionFromValue), 100);
-//   });
-// });
+  it('should handle the maximum end of the range correctly', () => {
+    const min = casual.integer(0, 899);
+    const max = casual.integer(900, 1000);
+    const value = geometric.getValue(100, min, max);
+    assert.equal(value, max);
+    const positionFromValue = geometric.getPosition(value, min, max);
+    assert.equal(Math.round(positionFromValue), 100);
+  });
+});
