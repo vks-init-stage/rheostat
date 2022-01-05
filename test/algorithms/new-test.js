@@ -9,6 +9,7 @@ describe('New algorithm', () => {
     const originalPosition = casual.integer(100, 900);
     const value = geometric.getValue(originalPosition, min, max);
     const positionFromValue = geometric.getPosition(value, min, max);
+
     assert.equal(Math.round(positionFromValue), originalPosition);
   });
 });
