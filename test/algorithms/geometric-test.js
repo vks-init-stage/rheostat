@@ -38,15 +38,15 @@ describe('geometric algorithm', () => {
     assert.equal(Math.round(positionFromValue), 100);
   });
   
-  it('should provide correct values for nice integers in the middle of a range', () => {
-    const min = 0;
-    const max = 1024;
-    const x = 25;
-    const value = geometric.getValue(x, min, max);
-    assert.equal(value, 64);
-    const positionFromValue = geometric.getPosition(value, min, max);
-    assert.equal(positionFromValue, x);
-  });
+//   it('should provide correct values for nice integers in the middle of a range', () => {
+//     const min = 0;
+//     const max = 1024;
+//     const x = 25;
+//     const value = geometric.getValue(x, min, max);
+//     assert.equal(value, 64);
+//     const positionFromValue = geometric.getPosition(value, min, max);
+//     assert.equal(positionFromValue, x);
+//   });
   
   it('new should provide correct values for nice integers in the middle of a range', () => {
     const min = 0;
