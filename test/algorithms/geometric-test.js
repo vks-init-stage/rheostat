@@ -50,7 +50,7 @@ describe('geometric algorithm', () => {
   });
 });
 
-describe('new test suite geometric algorithm', () => {
+describe('new test suite updated geometric algorithm', () => {
   it('should have inverse functions for getPosition and getValue', () => {
     const min = casual.integer(0, 100);
     const max = casual.integer(900, 1000);
