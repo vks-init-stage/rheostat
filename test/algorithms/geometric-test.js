@@ -27,7 +27,7 @@ describe('Parent suite', () => {
       const value = geometric.getValue(0, min, max);
       assert.equal(value, min);
       const positionFromValue = geometric.getPosition(value, min, max);
-      assert.equal(Math.round(positionFromValue), 0);
+      assert.equal(Math.round(positionFromValue), 1);
     });
 
     it('should provide correct values for nice integers in the middle of a range', () => {
