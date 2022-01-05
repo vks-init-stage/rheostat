@@ -518,6 +518,7 @@ describe('Slider API', () => {
         sinon.stub(slider, 'getSliderBoundingBox').returns(sliderBoundingBox);
         const nextState = slider.getNextState(0, 50);
         assert(nextState.handlePos[0] === 50, 'handle is at 50%');
+
         assert(nextState.values[0] === 50, 'the value is 50');
       });
 
