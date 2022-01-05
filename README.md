@@ -8,7 +8,6 @@ roject relies on `react-with-styles`. If you want to continue using CSS styleshe
 
 For example, the above import should go at the top of your application as you won't be able to import `rheostat` with it.
 
-
 ## Props
 
 The algorithm, by default [`linear`](src/algorithms/linear.js), the slider will use. Feel free to write
