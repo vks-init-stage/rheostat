@@ -1,6 +1,6 @@
 export default {
-  getPosition(x, mi, m) {
-    return ((m / (m - mi)) ** 0.5) * (((x - mi) / m) ** 0.5) * 100;
+  getPosition(xy, mi, m) {
+    return ((m / (m - mi)) ** 0.5) * (((xy - mi) / m) ** 0.5) * 100;
   },
 
   getValue(x, min, max) {
