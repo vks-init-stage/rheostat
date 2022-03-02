@@ -1,6 +1,6 @@
 ---
 framework: jest
-blocklist:
+# blocklist:
 #   - "test/algorithms/geometric-test.js##Parent suite##new test suite updated geometric algorithm"
 #   - "test/algorithms/geometric-test.js##Parent suite##geometric algorithm"
 preRun:
@@ -18,4 +18,5 @@ postRun:
      command:
         - node --version
 nodeVersion: 14.18.1
+parallelism: 3
 version: 1.0
