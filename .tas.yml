@@ -6,6 +6,7 @@ framework: jest
 preRun:
      command:
         - npm i
+        - npm run react
 preMerge:
   pattern:
     - "test/algorithms/geometric-test.js"
