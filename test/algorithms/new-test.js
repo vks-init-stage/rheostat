@@ -12,3 +12,6 @@ describe('New algorithm', () => {
     assert.equal(Math.round(positionFromValue), originalPosition);
   });
 });
+
+
+
