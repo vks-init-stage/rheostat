@@ -95,6 +95,8 @@ You can disable the slider to prevent the user from moving it.
   disabled: PropTypes.bool
 ```
 
+
+
 ## Usage
 
 > Important: Make sure to include the [css file](https://unpkg.com/rheostat@3/css/rheostat.css) or feel free to create your own.
