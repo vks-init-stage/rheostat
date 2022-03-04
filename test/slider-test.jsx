@@ -55,6 +55,7 @@ describeWithDOM('<Slider />', () => {
         render: pitRender,
       });
 
+
       mount(<Slider pitComponent={PitComponent} pitPoints={[0, 20]} />);
 
       assert.isTrue(pitRender.calledTwice, 'two pits were rendered, one for each point');
