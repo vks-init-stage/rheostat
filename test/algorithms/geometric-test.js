@@ -2,7 +2,6 @@ import { assert } from 'chai';
 import casual from 'casual';
 import geometric from '../../src/algorithms/geometric';
 
-
 describe('Parent suite', () => {
   describe('geometric algorithm', () => {
     it('should have inverse functions for getPosition and getValue', () => {
