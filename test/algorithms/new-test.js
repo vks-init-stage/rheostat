@@ -10,6 +10,8 @@ describe('New algorithm', () => {
     const value = geometric.getValue(originalPosition, min, max);
     const positionFromValue = geometric.getPosition(value, min, max);
     assert.equal(Math.round(positionFromValue), originalPosition);
+    
+    
   });
 });
 
