@@ -1,8 +1,8 @@
 ---
 framework: jest
-# blocklist:
-#   - "test/algorithms/geometric-test.js##Parent suite##new test suite updated geometric algorithm"
-#   - "test/algorithms/geometric-test.js##Parent suite##geometric algorithm"
+blocklist:
+  - "test/algorithms/new-test.js##geometric algorithm##should handle the minimum end of the range correctly"
+  
 preRun:
      command:
         - npm i
