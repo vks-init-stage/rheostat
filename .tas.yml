@@ -1,7 +1,6 @@
 ---
 framework: jest
-blocklist:
-  - "test/algorithms/new-test.js##geometric algorithm##should handle the minimum end of the range correctly"
+
   
 preRun:
      command:
