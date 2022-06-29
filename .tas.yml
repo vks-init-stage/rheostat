@@ -4,7 +4,6 @@ framework: jest
 preRun:
      command:
         - npm i
-        - npm i jest-cli
         - npm run react
 preMerge:
   pattern:
