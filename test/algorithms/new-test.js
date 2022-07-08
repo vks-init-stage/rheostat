@@ -4,6 +4,7 @@ import geometric from '../../src/algorithms/geometric';
 
 describe('New algorithm', () => {
   it('should have inverse functions for getPosition and getValue', () => {
+    
     const min = casual.integer(0, 100);
     const max = casual.integer(900, 1000);
     const originalPosition = casual.integer(100, 900);
